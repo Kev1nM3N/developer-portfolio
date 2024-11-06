@@ -1,11 +1,13 @@
 import { FaLocationArrow } from 'react-icons/fa6'
 import MagicButton from './ui/MagicButton'
+import Image from 'next/image';
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
+import KevinAIpfp from '@/public/kevinAIpfp.jpeg'
 
 function Hero() {
   return (
-    <div className='pb-[6rem] pt-36'>
+    <div className='pb-[6rem] pt-16'>
         <div className=''>
             <Spotlight className='-top-40 -left-10 md:-left-32
             md:-top-20 h-screen' fill='white'/>
@@ -19,13 +21,17 @@ function Hero() {
        bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
       </div>
 
-      <div className='flex justify-center relative mb-20 xl:my-20 z-10'>
+      <div className='flex justify-center relative my-20 lg:mt-0 xl:my-20 z-10'>
         <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex 
         flex-col items-center justify-center'>
-            <h2 className='uppercase tracking-widest text-xs
-            text-center text-blue-100 max-w-80'>
-                Dynamic Web Magic with Next.js
-            </h2>
+            <figure>
+              <Image 
+                id="personal-img"
+                src={KevinAIpfp}
+                alt="Personal Image"
+                className="w-28 h-28 rounded-full border-2 animate-fadeIn transition transition-300 ease-in-out hover:scale-110"
+              />
+            </figure>
 
             <TextGenerateEffect 
                 className='text-center text-[40px] md:text-5xl lg:text-6xl'
@@ -33,7 +39,7 @@ function Hero() {
             />
 
             <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                Hello! I&apos;m Kevin, a Next.js Developer based in Florida, USA
+                Hi! I&apos;m Kevin, a Next.js Developer based in Florida, USA
             </p>
 
             <a href="#projects">

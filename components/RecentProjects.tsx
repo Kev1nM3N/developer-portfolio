@@ -2,6 +2,7 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/3d-pin";
+//do you want to adjust height at line 24 for ipad pro?
 
 const RecentProjects = () => {
   return (
@@ -20,7 +21,7 @@ const RecentProjects = () => {
               title={item.link}
               href={item.link}
             >
-              <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
+              <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] rounded-lg mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
