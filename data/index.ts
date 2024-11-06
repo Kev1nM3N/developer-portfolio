@@ -2,7 +2,6 @@ export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Testimonials", link: "#testimonials" },
-    { name: "Contact", link: "#contact" },
   ];
   
   export const gridItems = [
@@ -11,18 +10,18 @@ export const navItems = [
       title: "I prioritize client collaboration, fostering open communication ",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-      imgClassName: "w-full h-full",
-      titleClassName: "justify-end",
+      imgClassName: "w-screen",
+      titleClassName: "justify-center",
       img: "/b1.svg",
       spareImg: "",
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "I'm flexible with time zone communications",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
-      titleClassName: "justify-start",
+      titleClassName: "justify-start md:pt-6",
       img: "",
       spareImg: "",
     },
@@ -42,7 +41,7 @@ export const navItems = [
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
-      titleClassName: "justify-start",
+      titleClassName: "justify-center",
       img: "/grid.svg",
       spareImg: "/b4.svg",
     },
@@ -53,7 +52,7 @@ export const navItems = [
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-      titleClassName: "justify-center md:justify-start lg:justify-center",
+      titleClassName: "justify-center lg:justify-center",
       img: "/b5.svg",
       spareImg: "/grid.svg",
     },
@@ -182,14 +181,14 @@ export const navItems = [
       id: 2,
       title: "Mobile App Dev - JSM Tech",
       desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
+      className: "md:col-span-2",
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
       title: "Freelance App Dev Project",
       desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
+      className: "md:col-span-2",
       thumbnail: "/exp3.svg",
     },
     {
@@ -205,13 +204,21 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      href: `https://github.com/Kev1nM3N`
     },
     {
       id: 2,
       img: "/twit.svg",
+      href: `https://bsky.app/profile/atomickevin42.bsky.social`
     },
     {
       id: 3,
       img: "/link.svg",
+      href: `https://kev1nm3n.github.io/CSS-Portfolio/`
     },
+    {
+      id: 4,
+      img: "/whiteuparrow.png",
+      href: `#`
+    }
   ];
