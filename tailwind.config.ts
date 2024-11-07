@@ -114,6 +114,25 @@ const config = {
             opacity: "1",
           },
         },
+        animateWave: {
+            "0%": {
+            transform: "rotate(0)",
+          },
+            "50%": {
+              transform: "rotate(40deg)",
+          },
+            "100%": {
+              transform: "rotate(0)",
+          },
+        },
+        spinner: {
+          from: {
+            transform: "rotate(0)",
+          },
+          to: {
+            transform: "rotate(360deg)",
+          },
+        },
         moveHorizontal: {
           "0%": {
             transform: "translateX(-50%) translateY(-10%)",
@@ -159,6 +178,8 @@ const config = {
         spotlight: "spotlight 2s ease .75s 1 forwards",
         shimmer: "shimmer 2s linear infinite",
         fadeIn: "fadeIn 4s ease-in-out",
+        animateWave: "animateWave 500ms infinite ease-in-out",
+        spinner: "spinner 750ms infinite linear",
         first: "moveVertical 30s ease infinite",
         second: "moveInCircle 20s reverse infinite",
         third: "moveInCircle 40s linear infinite",

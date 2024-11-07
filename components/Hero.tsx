@@ -21,7 +21,7 @@ function Hero() {
        bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
       </div>
 
-      <div className='flex justify-center relative my-20 lg:mt-0 xl:my-20 z-10'>
+      <div className='flex justify-center relative my-20 lg:mt-8 xl:my-20 z-10'>
         <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex 
         flex-col items-center justify-center'>
             <figure>
@@ -38,8 +38,9 @@ function Hero() {
                 words='Transforming Concepts into seamless Experiences'
             />
 
-            <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                Hi! I&apos;m Kevin, a Next.js Developer based in Florida, USA
+            <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl'>
+                Hi! I&apos;m Kevin, a Next.js Developer based in Florida, USA.
+                <span className="animate-animateWave inline-block">👋</span>
             </p>
 
             <a href="#projects">
@@ -51,7 +52,6 @@ function Hero() {
             </a>
         </div>
       </div>
-
     </div>
   )
 }

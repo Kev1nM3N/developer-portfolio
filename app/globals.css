@@ -76,6 +76,27 @@
   button {
     @apply active:outline-none;
   }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--cosmic-latte);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2563eb; 
+  border-radius: 9px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2f6cf0; 
+}
 }
 
 @layer utilities {

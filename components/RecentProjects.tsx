@@ -9,9 +9,9 @@ const RecentProjects = () => {
     <div className="py-20" id="projects">
       <h1 className="heading">
         A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        <span className="text-blue-600">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-3 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-3">
         {projects.map((item) => (
           <div
             className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
@@ -21,7 +21,7 @@ const RecentProjects = () => {
               title={item.link}
               href={item.link}
             >
-              <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] rounded-lg mb-10">
+              <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden h-[30vh] sm:h-[40vh] rounded-lg mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
@@ -65,10 +65,10 @@ const RecentProjects = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                  <p className="flex lg:text-xl md:text-xs text-sm text-blue-600">
                     Check Live Site
                   </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  <FaLocationArrow className="ms-3" color="#4c80f1" />
                 </div>
               </div>
             </PinContainer>

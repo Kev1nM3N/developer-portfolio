@@ -7,7 +7,7 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        My <span className="text-blue-600">approach</span>
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         <Card
@@ -136,7 +136,7 @@ const AceternityIcon = ({ order }: { order: string }) => {
         />
         <span
           className="inline-flex h-full w-full cursor-pointer items-center 
-        justify-center rounded-full bg-slate-950 px-5 py-2 text-purple backdrop-blur-3xl font-bold text-2xl"
+        justify-center rounded-full bg-slate-950 px-5 py-2 text-blue-300 backdrop-blur-3xl font-bold text-2xl"
         >
           {order}
         </span>
