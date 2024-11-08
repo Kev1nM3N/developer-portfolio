@@ -5,7 +5,7 @@ import { PinContainer } from "./ui/3d-pin";
 
 const RecentProjects = () => {
   return (
-    <div className="pt-20">
+    <div id="projects" className="pt-28">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-blue-600">recent projects</span>

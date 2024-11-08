@@ -5,7 +5,7 @@ import { InfiniteMovingCards } from "./ui/InfiniteMovingCards";
 
 const Clients = () => {
   return (
-    <section id="testimonials" className="py-20">
+    <section id="testimonials" className="py-28">
       <h1 className="heading">
         Kind words from
         <span className="text-blue-600"> satisfied clients</span>
