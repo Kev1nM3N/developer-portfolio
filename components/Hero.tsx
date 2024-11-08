@@ -39,7 +39,7 @@ function Hero() {
             />
 
             <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl'>
-                Hi! I&apos;m Kevin, a Next.js Developer based in Florida, USA.
+                Hi! I&apos;m Kevin, a Next.js Developer based in Florida, USA
                 <span className="animate-animateWave inline-block">👋</span>
             </p>
 
