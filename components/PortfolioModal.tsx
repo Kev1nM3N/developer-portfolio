@@ -77,8 +77,8 @@ const PortfolioModal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
                 &times;
               </button>
               <div className="text-center">
-                <h3 className="text-lg sm:text-2xl font-bold mb-2">Let's Chat! 👨🏻‍💼</h3>
-                <h4 className="text-sm sm:text-lg mb-4">I'm Currently Open To New Opportunities</h4>
+                <h3 className="text-lg sm:text-2xl font-bold mb-2">Let&apos;s Chat! 👨🏻‍💼</h3>
+                <h4 className="text-sm sm:text-lg mb-4">I&apos;m Currently Open To New Opportunities</h4>
               </div>
               
               {/* Contact Form */}
