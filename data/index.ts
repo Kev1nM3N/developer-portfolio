@@ -1,7 +1,6 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
   ];
   
   export const gridItems = [
@@ -71,35 +70,35 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      title: "NFT marketplace",
+      des: "Explore the world of NFT items with limited time offers and connect with like-minded people!",
+      img: "/project cover images/Ultraverse NFT App.jpg",
+      iconLists: ["/re.svg", "/js.svg", "css.svg", "/html.svg"],
+      link: "https://github.com/Kev1nM3N/kevin-internship",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      title: "Tarot cards application",
+      des: "An easy to use, sleek, and responsive website to look up meanings and details on all tarot cards from the Rider-Watie-Smith deck.",
+      img: "/project cover images/Tarot Application.jpg",
+      iconLists: ["/firebase.svg", "/re.svg", "/js.svg", "/css.svg", "html.svg" ],
+      link: "https://github.com/Kev1nM3N/newTarotApplication",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      title: "Blogr: A blogging media platform",
+      des: "A challenge from Frontend Mentor, this project pushed my HTML and CSS skills to deliver new solutions for this design.",
+      img: "/project cover images/Blogr Landing Page.jpg",
+      iconLists: ["js.svg", "css.svg", "html.svg"],
+      link: "https://kev1nm3n.github.io/Blogr-Landing-Page/",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      title: "Treact static clone",
+      des: "This is my replica of Treact's home page using HMTL and CSS.",
+      img: "/project cover images/Treact Static Website.jpg",
+      iconLists: ["/css.svg", "/html.svg"],
+      link: "https://kev1nm3n.github.io/Treact-Replica/",
     },
   ];
   
@@ -204,21 +203,19 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
-      href: `https://github.com/Kev1nM3N`
+      href: `https://github.com/Kev1nM3N`,
+      title: "Kevin's GitHub"
     },
     {
       id: 2,
-      img: "/twit.svg",
-      href: `https://bsky.app/profile/atomickevin42.bsky.social`
+      img: "/link.svg",
+      href: `javascript:void(0)`,
+      title: "Kevin currently does not have a linkedin"
     },
     {
       id: 3,
-      img: "/link.svg",
-      href: `https://kev1nm3n.github.io/CSS-Portfolio/`
-    },
-    {
-      id: 4,
       img: "/whiteuparrow.png",
-      href: `#`
+      href: `#`,
+      title: "Back to the top!"
     }
   ];

@@ -28,26 +28,28 @@ const PortfolioModal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
   const contact = async (event: React.FormEvent) => {
     event.preventDefault();
     setLoading(true);
-
-    emailjs
-      .sendForm(
-        process.env.NEXT_PUBLIC_SERVICE_ID!, 
+  
+    try {
+      await emailjs.sendForm(
+        process.env.NEXT_PUBLIC_SERVICE_ID!,
         process.env.NEXT_PUBLIC_TEMPLATE_ID!,
         event.target as HTMLFormElement,
         process.env.NEXT_PUBLIC_PUBLIC_KEY!
-      )
-      .then(() => {
-        setLoading(false);
-        setSuccess(true);
-        if (nameRef.current) nameRef.current.value = "";
-        if (emailRef.current) emailRef.current.value = "";
-        if (messageRef.current) messageRef.current.value = "";
-        setTimeout(() => setSuccess(false), 3000);
-      })
-      .catch(() => {
-        setLoading(false);
-        alert("The email service is temporarily unavailable. Please contact me directly at mendez.kevin44@yahoo.com");
-      });
+      );
+  
+      setLoading(false);
+      setSuccess(true);
+  
+      if (nameRef.current) nameRef.current.value = "";
+      if (emailRef.current) emailRef.current.value = "";
+      if (messageRef.current) messageRef.current.value = "";
+  
+      setTimeout(() => setSuccess(false), 4000);
+    } catch (error) {
+      console.error("EmailJS Error:", error);
+      setLoading(false);
+      alert("The email service is temporarily unavailable. Please contact me directly at mendez.kevin44@yahoo.com");
+    }
   };
 
   if (!isOpen) return null;
@@ -75,23 +77,23 @@ const PortfolioModal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
                 &times;
               </button>
               <div className="text-center">
-                <h3 className="text-lg sm:text-2xl font-bold mb-2">Happy to work with you! 👨🏻‍💼</h3>
+                <h3 className="text-lg sm:text-2xl font-bold mb-2">Let's Chat! 👨🏻‍💼</h3>
                 <h4 className="text-sm sm:text-lg mb-4">I'm Currently Open To New Opportunities</h4>
               </div>
               
               {/* Contact Form */}
               <form onSubmit={contact} id="contact__form" className="space-y-4">
                 <div className="form__item flex flex-col">
-                  <label className="form__item--label mb-1 text-sm">Name</label>
-                  <input type="text" ref={nameRef} name="user_name" className="input p-2 rounded-md bg-gray-700 text-white" required />
+                  <label className="form__item--label mb-1 text-sm">Your name:</label>
+                  <input type="text" ref={nameRef} name="user_name" title="Name required" className="input p-2 rounded-md bg-gray-700 text-white" required />
                 </div>
                 <div className="form__item flex flex-col">
-                  <label className="form__item--label mb-1 text-sm">Email</label>
-                  <input type="email" ref={emailRef} name="user_email" className="input p-2 rounded-md bg-gray-700 text-white" required />
+                  <label className="form__item--label mb-1 text-sm">Your email:</label>
+                  <input type="email" ref={emailRef} name="user_email" title="Email required" className="input p-2 rounded-md bg-gray-700 text-white" required />
                 </div>
                 <div className="form__item flex flex-col">
-                  <label className="form__item--label mb-1 text-sm">Message</label>
-                  <textarea name="user_message" ref={messageRef} className="input p-2 rounded-md bg-gray-700 text-white h-[100px]" required />
+                  <label className="form__item--label mb-1 text-sm">Your message:</label>
+                  <textarea name="user_message" ref={messageRef} title="Message required" className="input p-2 rounded-md bg-gray-700 text-white h-[100px]" required />
                 </div>
                 <button type="submit" className="form__submit bg-blue-600 text-white px-8 py-2 rounded-full font-bold hover:bg-transparent border border-blue-500 hover:text-blue-500 transition duration-100">
                   {loading ? "Sending..." : "Send"}
