@@ -74,7 +74,7 @@ export const navItems = [
       des: "Explore the world of NFT items with limited time offers and connect with like-minded people!",
       img: "/project cover images/Ultraverse NFT App.jpg",
       iconLists: ["/re.svg", "/js.svg", "css.svg", "/html.svg"],
-      link: "https://github.com/Kev1nM3N/kevin-internship",
+      link: "https://kevin-internship-five.vercel.app/",
     },
     {
       id: 2,
@@ -82,7 +82,7 @@ export const navItems = [
       des: "An easy to use, sleek, and responsive website to look up meanings and details on all tarot cards from the Rider-Watie-Smith deck.",
       img: "/project cover images/Tarot Application.jpg",
       iconLists: ["/firebase.svg", "/re.svg", "/js.svg", "/css.svg", "html.svg" ],
-      link: "https://github.com/Kev1nM3N/newTarotApplication",
+      link: "https://new-tarot-application.vercel.app/",
     },
     {
       id: 3,
