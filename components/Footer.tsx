@@ -32,7 +32,7 @@ const Footer = () => {
           Copyright © 2024 Kevin Mendez
         </p>
 
-        <div className="flex items-center md:gap-3 gap-6">
+        <div className="flex items-center md:gap-3 gap-6 mt-9 sm:mt-0">
         {socialMedia.map((info) => (
           <div
             key={info.id}
