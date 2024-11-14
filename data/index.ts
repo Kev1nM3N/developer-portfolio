@@ -9,7 +9,7 @@ export const navItems = [
       title: "I prioritize client collaboration, fostering open communication ",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 ",
-      imgClassName: "w-screen",
+      imgClassName: "w-screen blur-sm brightness-75",
       titleClassName: "justify-center",
       img: "/b1.svg",
       spareImg: "",
@@ -27,7 +27,7 @@ export const navItems = [
     {
       id: 3,
       title: "My tech stack",
-      description: "I constantly try to improve",
+      description: "Always improving",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -47,7 +47,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a NextJS Application with AI",
+      title: "Currently building a Next.js application with AI",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
