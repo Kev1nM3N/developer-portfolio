@@ -9,7 +9,7 @@ export const navItems = [
       title: "I prioritize client collaboration, fostering open communication ",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 ",
-      imgClassName: "w-screen blur-sm brightness-75",
+      imgClassName: "w-screen blur-sm brightness-75 sm:blur-none",
       titleClassName: "justify-center",
       img: "/b1.svg",
       spareImg: "",
