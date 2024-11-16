@@ -48,7 +48,7 @@ const PortfolioModal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
     } catch (error) {
       console.error("EmailJS Error:", error);
       setLoading(false);
-      alert("The email service is temporarily unavailable. Contact me directly at mendez.kevin44@yahoo.com");
+      alert("The email service is temporarily unavailable. At the bottom of this website, click 'Let's get in touch!' to contact me directly.");
     }
   };
 
