@@ -73,7 +73,7 @@ export const navItems = [
       title: "StoreIt Management",
       des: "This application is a file storage and management solution designed to replicate Google Drive.",
       img: "/project cover images/StoreIt Management.jpg",
-      iconLists: ["/next.svg", "ts.svg", "/shadcn-logo.png", "appwrite-logo.png"],
+      iconLists: ["/next.svg", "ts.svg", "tail.svg", "/shadcn-logo.png", "appwrite-logo.png"],
       link: "https://store-it-application.vercel.app/sign-in"
     },
     {
