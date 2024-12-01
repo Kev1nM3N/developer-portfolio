@@ -70,6 +70,14 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "StoreIt Management",
+      des: "This application is a file storage and management solution designed to replicate Google Drive.",
+      img: "/project cover images/StoreIt Management.jpg",
+      iconLists: ["/next.svg", "ts.svg", "/shadcn-logo.png", "appwrite-logo.png"],
+      link: "https://store-it-application.vercel.app/sign-in"
+    },
+    {
+      id: 2,
       title: "NFT marketplace",
       des: "Explore the world of NFT items with limited time offers and connect with like-minded people!",
       img: "/project cover images/Ultraverse NFT App.jpg",
@@ -77,23 +85,23 @@ export const navItems = [
       link: "https://kevin-internship-five.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Tarot cards application",
-      des: "An easy to use, sleek, and responsive website to look up meanings and details on all tarot cards from the Rider-Watie-Smith deck.",
+      des: "A sleek and responsive application to look up details on all tarot cards from the Rider-Watie-Smith deck.",
       img: "/project cover images/Tarot Application.jpg",
       iconLists: ["/firebase.svg", "/re.svg", "/js.svg", "/css.svg", "html.svg" ],
       link: "https://new-tarot-application.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "Blogr: A blogging media platform",
-      des: "A challenge from Frontend Mentor, this project pushed my HTML and CSS skills to deliver new solutions for this design.",
+      des: "A simple landing page which pushed my HTML and CSS skills to deliver new solutions for this design.",
       img: "/project cover images/Blogr Landing Page.jpg",
       iconLists: ["js.svg", "css.svg", "html.svg"],
       link: "https://kev1nm3n.github.io/Blogr-Landing-Page/",
     },
     {
-      id: 4,
+      id: 5,
       title: "Treact static clone",
       des: "This is my replica of Treact's home page using HMTL and CSS.",
       img: "/project cover images/Treact Static Website.jpg",
