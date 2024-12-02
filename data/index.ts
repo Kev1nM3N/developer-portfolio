@@ -78,7 +78,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "NFT marketplace",
+      title: "NFT Marketplace",
       des: "Explore the world of NFT items with limited time offers and connect with like-minded people!",
       img: "/project cover images/Ultraverse NFT App.jpg",
       iconLists: ["/re.svg", "/js.svg", "css.svg", "/html.svg"],
@@ -86,7 +86,7 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "Tarot cards application",
+      title: "Tarot Application",
       des: "A sleek and responsive application to look up details on all tarot cards from the Rider-Watie-Smith deck.",
       img: "/project cover images/Tarot Application.jpg",
       iconLists: ["/firebase.svg", "/re.svg", "/js.svg", "/css.svg", "html.svg" ],
@@ -94,7 +94,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Blogr: A blogging media platform",
+      title: "Blogr: A Blogging Media Platform",
       des: "A simple landing page which pushed my HTML and CSS skills to deliver new solutions for this design.",
       img: "/project cover images/Blogr Landing Page.jpg",
       iconLists: ["js.svg", "css.svg", "html.svg"],
@@ -102,7 +102,7 @@ export const navItems = [
     },
     {
       id: 5,
-      title: "Treact static clone",
+      title: "Treact Landing Clone",
       des: "This is my replica of Treact's home page using HMTL and CSS.",
       img: "/project cover images/Treact Static Website.jpg",
       iconLists: ["/css.svg", "/html.svg"],
