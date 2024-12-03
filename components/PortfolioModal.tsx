@@ -36,6 +36,11 @@ const PortfolioModal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
         event.target as HTMLFormElement,
         process.env.NEXT_PUBLIC_PUBLIC_ID!
       );
+
+      console.log("Service ID:", process.env.NEXT_PUBLIC_SERVICE_ID);
+      console.log("Template ID:", process.env.NEXT_PUBLIC_TEMPLATE_ID);
+      console.log("Public ID:", process.env.NEXT_PUBLIC_PUBLIC_ID);
+
   
       setLoading(false);
       setSuccess(true);
