@@ -218,7 +218,7 @@ export const navItems = [
       id: 2,
       img: "/link.svg",
       href: "https://www.linkedin.com/",
-      title: "Kevin currently does not have a linkedin"
+      title: "Kevin currently does not have a Linkedin."
     },
     {
       id: 3,
