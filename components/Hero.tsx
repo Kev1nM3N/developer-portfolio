@@ -7,7 +7,7 @@ import KevinAIpfp from '@/public/kevinAIpfp.jpeg'
 
 function Hero() {
   return (
-    <div className='pb-[6rem] pt-10 sm:pt-16'>
+    <div className='pb-[6rem] pt-2 sm:pt-16'>
         <div className=''>
             <Spotlight className='-top-40 -left-10 md:-left-32
             md:-top-20 h-screen' fill='white'/>
