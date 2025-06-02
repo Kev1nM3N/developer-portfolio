@@ -70,14 +70,6 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "Skinstric AI",
-      des: "This internship project was aimed to analyze user's faces with AI and provide general feedback.",
-      img: "/project cover images/SkinstricAI.png",
-      iconLists: ["/html.svg", "/css.svg", "js.svg", "tail.svg", "/next.svg"],
-      link: "https://skinstricai-two.vercel.app/",
-    },
-    {
-      id: 2,
       title: "StoreIt Management",
       des: "This application is a file storage and management solution designed to replicate Google Drive.",
       img: "/project cover images/StoreIt Management.jpg",
@@ -85,7 +77,7 @@ export const navItems = [
       link: "https://store-it-application.vercel.app/sign-in"
     },
     {
-      id: 3,
+      id: 2,
       title: "NFT Marketplace",
       des: "Explore the world of NFT items with limited time offers and connect with like-minded people!",
       img: "/project cover images/Ultraverse NFT App.jpg",
@@ -93,7 +85,7 @@ export const navItems = [
       link: "https://kevin-internship-five.vercel.app/",
     },
     {
-      id: 4,
+      id: 3,
       title: "Tarot Application",
       des: "A sleek and responsive application to look up details on all tarot cards from the Rider-Watie-Smith deck.",
       img: "/project cover images/Tarot Application.jpg",
@@ -101,7 +93,7 @@ export const navItems = [
       link: "https://new-tarot-application.vercel.app/",
     },
     {
-      id: 5,
+      id: 4,
       title: "Blogr: A Blogging Media Platform",
       des: "A simple landing page which pushed my HTML and CSS skills to deliver new solutions for this design.",
       img: "/project cover images/Blogr Landing Page.jpg",
@@ -109,7 +101,7 @@ export const navItems = [
       link: "https://kev1nm3n.github.io/Blogr-Landing-Page/",
     },
     {
-      id: 6,
+      id: 5,
       title: "Treact Landing Clone",
       des: "This is my replica of Treact's home page using HMTL and CSS.",
       img: "/project cover images/Treact Static Website.jpg",
