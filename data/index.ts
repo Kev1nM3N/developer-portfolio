@@ -1,6 +1,7 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
+    { name: "Resume", link: "myResumePDF.pdf" },
   ];
   
   export const gridItems = [
@@ -217,11 +218,17 @@ export const navItems = [
     {
       id: 2,
       img: "/link.svg",
-      href: "https://www.linkedin.com/",
-      title: "Kevin currently does not have a Linkedin."
+      href: "https://www.linkedin.com/in/kevin-mendez-0970b1353/",
+      title: "Kevin's Linkedin"
     },
     {
       id: 3,
+      img: "/filelineswhite.svg",
+      href: "myResumePDF.pdf",
+      title: "Kevin's Resume"
+    },
+    {
+      id: 4,
       img: "/whiteuparrow.png",
       href: `#`,
       title: "Back to the top!"

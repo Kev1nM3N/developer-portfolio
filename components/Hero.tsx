@@ -3,7 +3,7 @@ import MagicButton from './ui/MagicButton'
 import Image from 'next/image';
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
-import KevinAIpfp from '@/public/kevinAIpfp.jpeg'
+import KevinPFP from '@/public/ProfessionalPFP.jpg'
 
 function Hero() {
   return (
@@ -27,7 +27,7 @@ function Hero() {
             <figure>
               <Image 
                 id="personal-img"
-                src={KevinAIpfp}
+                src={KevinPFP}
                 alt="Personal Image"
                 className="w-28 h-28 rounded-full border-2 animate-fadeIn transition transition-300 ease-in-out hover:scale-110"
               />
