@@ -75,7 +75,8 @@ export const navItems = [
       des: "This application is a file storage and management solution designed to replicate Google Drive.",
       img: "/project cover images/StoreIt Management.jpg",
       iconLists: ["/next.svg", "ts.svg", "tail.svg", "/shadcn-logo.png", "appwrite-logo.png"],
-      link: "https://store-it-application.vercel.app/sign-in"
+      link: "https://store-it-application.vercel.app/sign-in",
+      githubLink: "https://github.com/Kev1nM3N/store-it-application",
     },
     {
       id: 2,
@@ -84,6 +85,7 @@ export const navItems = [
       img: "/project cover images/Ultraverse NFT App.jpg",
       iconLists: ["/re.svg", "/js.svg", "css.svg", "/html.svg"],
       link: "https://kevin-internship-five.vercel.app/",
+      githubLink: "https://github.com/Kev1nM3N/kevin-internship",
     },
     {
       id: 3,
@@ -92,6 +94,7 @@ export const navItems = [
       img: "/project cover images/Tarot Application.jpg",
       iconLists: ["/firebase.svg", "/re.svg", "/js.svg", "/css.svg", "html.svg" ],
       link: "https://new-tarot-application.vercel.app/",
+      githubLink: "https://github.com/Kev1nM3N/newTarotApplication",
     },
     {
       id: 4,
@@ -100,6 +103,7 @@ export const navItems = [
       img: "/project cover images/Blogr Landing Page.jpg",
       iconLists: ["js.svg", "css.svg", "html.svg"],
       link: "https://kev1nm3n.github.io/Blogr-Landing-Page/",
+      githubLink: "https://github.com/Kev1nM3N/Blogr-Landing-Page",
     },
     {
       id: 5,
@@ -108,6 +112,7 @@ export const navItems = [
       img: "/project cover images/Treact Static Website.jpg",
       iconLists: ["/css.svg", "/html.svg"],
       link: "https://kev1nm3n.github.io/Treact-Replica/",
+      githubLink: "https://github.com/Kev1nM3N/Treact-Replica",
     },
   ];
   

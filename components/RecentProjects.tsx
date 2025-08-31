@@ -20,8 +20,8 @@ const RecentProjects = () => {
             <PinContainer
               title={item.link}
             >
-              <Link href={item.link} target="_blank">
-                <div className="relative flex items-center justify-center sm:w-[464px] w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+              
+                <div className="relative flex items-center justify-center sm:w-[464px] w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10 rounded">
                   <div
                     className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                     style={{ backgroundColor: "#13162D" }}
@@ -65,13 +65,19 @@ const RecentProjects = () => {
                   </div>
 
                   <div className="flex justify-center items-center">
-                    <p className="flex lg:text-xl md:text-xs text-sm text-blue-600">
-                      Check Live Site
-                    </p>
-                    <FaLocationArrow className="ms-3" color="#4177ec" />
+                    <Link href={item.link} target="_blank">
+                      <button className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 mx-1" title="Check Live Site">
+                        <FaLocationArrow className="ms-3 -translate-x-1.5 lg:-translate-x-0.5" color="#4177ec" />
+                      </button>                    
+                    </Link>
+                    <Link href={item.githubLink} target="_blank">
+                      <button className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 mx-1" title="Check Github Repository">
+                        <img src="/git.svg" alt="" className="w-full h-full"/>
+                      </button>
+                    </Link>
                   </div>
                 </div>
-              </Link>
+              
             </PinContainer>
           </div>
         ))}

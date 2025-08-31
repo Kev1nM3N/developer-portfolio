@@ -38,7 +38,7 @@ function Hero() {
                 words='Transforming Concepts Into Seamless Experiences'
             />
 
-            <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl'>
+            <p className='text-center md:tracking-wide mb-4 text-sm md:text-lg lg:text-xl'>
                 Hi! I&apos;m Kevin, a software developer based in Florida, USA
                 <span className="animate-animateWave inline-block">👋</span>
             </p>
